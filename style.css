@@ -100,3 +100,6 @@ footer {
 h1{
     margin-bottom: 20px;
 }
+.container h1{
+    font-size:30px;
+}
