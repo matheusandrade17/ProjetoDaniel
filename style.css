@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+
 }
 
 body {
@@ -11,9 +12,10 @@ body {
 }
 
 header {
-    background-color: #fddde6;
+    background-color: #F9EBC7;
     padding: 20px 0;
-    border-bottom: 2px solid #f8c6d0;
+    border-bottom: 2px solid #F9EBC7;
+    
 }
 
 .container {
@@ -23,9 +25,27 @@ header {
     text-align: center;
 }
 
+
+.container-logo  {
+
+    display: flex;  /* Usando Flexbox */
+    justify-content: center;  /* Centraliza apenas o logo horizontalmente */
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    padding: 0 20px;  /* Adiciona um pouco de espaçamento nas laterais */
+
+}
+
+
+.logo {
+    margin-bottom:30px;
+    width: 300px;  /* Define o tamanho do logo (ajuste conforme necessário) */
+    height: auto;  /* Mantém a proporção da imagem */
+    margin-right: 20px;  /* Espaço à direita do logo */
+}
+
 header h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 200%;
 }
 
 nav ul {
@@ -36,7 +56,7 @@ nav ul {
 }
 
 nav a {
-    color: #5a3e36;
+    color: #000000;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -53,15 +73,41 @@ nav a:hover {
     text-align: center;
     padding: 100px 20px;
     color: #000000;
+
 }
 
 .banner h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 74, 74, 0.7);
 }
 
 .sobre, .produtos, .contato {
     padding: 60px 0;
+}
+
+
+.caixa-sobre {
+
+    background-color: rgb(255, 144, 144);
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+}
+
+.caixa-div{
+
+background-color: rgb(255, 230, 230);
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+
 }
 
 h2 {
@@ -78,21 +124,23 @@ h2 {
 }
 
 .lista-produtos li {
-    background-color: #ffe3ec;
+    
     margin: 10px;
     padding: 15px 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
     font-weight: bold;
+    background: linear-gradient(135deg, #F9EBC7, #ff3164 60%);
 }
 
 footer {
-    background-color: #fddde6;
+    background-color: #F9EBC7;
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
-    color: #5a3e36;
-    border-top: 2px solid #f8c6d0;
+    color: #000000;
+    border-top: 2px solid #F9EBC7;
+    
 }
 .paragrafo{
     margin-bottom: 20px;
@@ -103,3 +151,27 @@ h1{
 .container h1{
     font-size:30px;
 }
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0); 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+a.botao:hover {
+    background-color: #fff8f8;
+
+}
+
+.botao-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
