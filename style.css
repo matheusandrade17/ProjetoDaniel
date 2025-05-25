@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-
 }
 
 body {
@@ -28,19 +27,19 @@ header {
 
 .container-logo  {
 
-    display: flex;  /* Usando Flexbox */
-    justify-content: center;  /* Centraliza apenas o logo horizontalmente */
-    align-items: center;  /* Alinha os itens verticalmente no centro */
-    padding: 0 20px;  /* Adiciona um pouco de espaçamento nas laterais */
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
 
 }
 
 
 .logo {
     margin-bottom:30px;
-    width: 300px;  /* Define o tamanho do logo (ajuste conforme necessário) */
-    height: auto;  /* Mantém a proporção da imagem */
-    margin-right: 20px;  /* Espaço à direita do logo */
+    width: 300px;  
+    height: auto;  
+    margin-right: 20px;  
 }
 
 header h1 {
@@ -79,7 +78,7 @@ nav a:hover {
 .banner h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(255, 74, 74, 0.7);
+    text-shadow: 2px 2px 4px rgb(255, 222, 222);
 }
 
 .sobre, .produtos, .contato {
@@ -155,7 +154,7 @@ h1{
 .botao {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #dbdbdb;
+    background-color: #ff9dbd;
     color: rgb(0, 0, 0); 
     font-size: 18px;
     font-weight: bold;
@@ -166,7 +165,7 @@ h1{
 }
 
 a.botao:hover {
-    background-color: #fff8f8;
+    background-color: #ffd9d9;
 
 }
 
@@ -174,4 +173,3 @@ a.botao:hover {
     text-align: center; 
     margin-top: 20px;
 }
-
