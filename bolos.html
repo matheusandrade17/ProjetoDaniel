@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dolfiore Confeitaria</h1>
+        <nav>
+            <ul>
+                <li><a href="bolos.html">Brigadeiros</a></li>
+                <li><a href="doces.html">Doces</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Cardápio de Bolos</h1>
+        <p>Confira nossos deliciosos bolos e recheios!</p>
+        <div class="cards-container">
+            <div class="card">
+                <h2>Recheios Simples</h2>
+                <p class="preco">Preço: R$80,00 por kg</p>
+                <ul>
+                    <li>Ninho</li>
+                    <li>Chocolate</li>
+                    <li>Chocolate Branco</li>
+                    <li>Beijinho</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Recheios Especiais</h2>
+                <p class="preco">Preço: R$90,00 por kg</p>
+                <ul>
+                    <li>Doce de Leite</li>
+                    <li>Maracujá</li>
+                    <li>Abacaxi</li>
+                    <li>Limão</li>
+                    <li>Geleia de morango</li>
+                    <li>Nutella</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Adicionais</h2>
+                <ul>
+                    <li>Gliter: R$12,00 p/kg</li>
+                    <li>Crocante: R$10,00 p/kg</li>
+                    <li>Brigadeiros: R$2,00 UN</li>
+                    <li>Bolo Fake: R$40,00</li>
+                    <li>Topper e Flores: Consultar Valores</li>
+                    <li>Geleia e Frutas vermelhas: R$25,00 p/kg</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Contato</h2>
+        <p>&copy; 2025 Dolfiore Confeitaria. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            var tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
