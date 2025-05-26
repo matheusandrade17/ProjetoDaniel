@@ -1,87 +1,175 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dolfiore Confeitaria | Doces que encantam o seu dia</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container-logo">
-            <img src="Dolfiore Confeitaria.png" alt="Dolfiore Confeitaria" class="logo">
-        </div>
-        
-            <nav>
-                <ul>
-                    <li>
-                        <div class="botao-container">
-                            
-                            <a href="#sobre" class="botao">Sobre</a>
-                            
-                        </div>
-                    <li>
-                        <div class="botao-container">
-                            
-                            <a href="#produtos" class="botao">Produtos</a>
-                            
-                        </div>
-                    <li>
-                        <div class="botao-container">
-                            
-                            <a href="#contato" class="botao">Contato</a>
-                            
-                        </div>
-                </ul>
-            </nav>
-        
-    </header>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-    <section class="banner">
-        <div class="caixa-div">
-            <h2>Doces que encantam o seu dia</h2>
-            <p>Experimente nossas delícias feitas com amor.</p>
-        </div>
-    </section>
+body {
+    background-color: #fbfbfb;
+    color: #000000;
+}
 
-<section id="sobre" class="sobre">
-    <div class="container">
-        <h1>Sobre Nós</h1>
-        <div class="caixa-sobre">
-            <p>Somos apaixonados por confeitaria e desde 2015 adoçamos a vida dos nossos clientes com bolos, cupcakes, brigadeiros e muito mais!</p>
-        </div>
-    </div>
-</section>
-
-    <section id="produtos" class="produtos">
-        <div class="container">
-            <h2>Nossos Produtos</h2>
-            <ul class="lista-produtos">
-                <li>Bolos decorados</li>
-                <li>Cupcakes personalizados</li>
-                <li>Doces para festas</li>
-                <li>Caixas de presente gourmet</li>
-            </ul>
-        </div>
-    </section>
-<div class="botao-container">
+header {
+    background-color: #F9EBC7;
+    padding: 20px 0;
+    border-bottom: 2px solid #F9EBC7;
     
-    <a href="produtos.html" class="botao">Ver produtos</a>
-    <a href="FormulárioFeedback.html" class="botao">Deixe seu feedback</a>
-    </button>
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.container-logo  {
+
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+
+}
+
+
+.logo {
+    margin-bottom:30px;
+    width: 300px;  
+    height: auto;  
+    margin-right: 20px;  
+}
+
+header h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d14e6e;
+}
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1589308078056-f90d1146b1b6');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #000000;
+
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #ff9dbd;
+}
+
+.sobre, .produtos, .contato {
+    padding: 60px 0;
+}
+
+
+.caixa-sobre {
+
+    background-color: #ff9dbd;
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+}
+
+.caixa-div{
+
+background-color: #ff9dbd;
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista-produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.lista-produtos li {
     
-</div>
-    <section id="contato" class="contato">
-        <div class="container">
-            <h2>Fale Conosco</h2>
-            <p>WhatsApp: (83)99157-7463</p>
-        </div>
-    </section>
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+    background-color: #ff9dbd;
+}
 
-    <footer>
-        <p>&copy;2025 Dolfiore confeitaria . Todos os direitos reservados.</p>
-    </footer>
-  
+footer {
+    background-color: #F9EBC7;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #000000;
+    border-top: 2px solid #F9EBC7;
+    
+}
+.paragrafo{
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.container h1{
+    font-size:30px;
+}
 
-</body>
-</html>
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9dbd;
+    color: rgb(0, 0, 0); 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+a.botao:hover {
+    background-color: #ffd9d9;
+
+}
+
+.botao-container {
+    text-align: center; 
+    margin-top: 20px;
+}
