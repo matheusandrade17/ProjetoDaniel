@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fbfbfb;
+    color: #000000;
+}
+
+header {
+    background-color: #F9EBC7;
+    padding: 20px 0;
+    border-bottom: 2px solid #F9EBC7;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.container-logo  {
+
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+
+}
+
+
+.logo {
+    margin-bottom:30px;
+    width: 300px;  
+    height: auto;  
+    margin-right: 20px;  
+}
+
+header h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d14e6e;
+}
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1589308078056-f90d1146b1b6');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #000000;
+
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgb(255, 222, 222);
+}
+
+.sobre, .produtos, .contato {
+    padding: 60px 0;
+}
+
+
+.caixa-sobre {
+
+    background-color: rgb(255, 144, 144);
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+}
+
+.caixa-div{
+
+background-color: rgb(255, 230, 230);
+    border-radius: 15px; 
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista-produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.lista-produtos li {
+    
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+    background: linear-gradient(135deg, #F9EBC7, #ff3164 60%);
+}
+
+footer {
+    background-color: #F9EBC7;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #000000;
+    border-top: 2px solid #F9EBC7;
+    
+}
+.paragrafo{
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.container h1{
+    font-size:30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9dbd;
+    color: rgb(0, 0, 0); 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+a.botao:hover {
+    background-color: #ffd9d9;
+
+}
+
+.botao-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+/* Cards container */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+/* Card style */
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 24px 20px;
+    width: 320px;
+    max-width: 90vw;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #b85c38;
+}
+
+.card .preco {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.card ul {
+    padding-left: 18px;
+}
