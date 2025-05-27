@@ -20,16 +20,25 @@ header {
     border-bottom: 2px solid white;
 }
 
-header h1 {
-    font-size: 3em;
-    color: #a0455a;
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
 }
 
-header p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #a0455a;
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
 }
+
+nav a:hover {
+    color: #d14e6e;
+}
+
+
 
 .preco {
     max-width: 600px;
@@ -37,13 +46,13 @@ header p {
     background-color: #fff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .preco h2 {
     text-align: center;
     margin-bottom: 15px;
-    color: #a0455a;
+    color: #d14e6e;
 }
 
 .linha-preco {
@@ -68,7 +77,7 @@ header p {
 .sabores h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #a0455a;
+    color: #d14e6e;
 }
 
 .sabores .card {
@@ -76,7 +85,7 @@ header p {
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .imagem {
@@ -87,17 +96,18 @@ header p {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .imagem img {
     width: 300px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .sabores .card h3 {
-    color: #a0455a;
+    color: #d14e6e;
     margin-bottom: 8px;
 }
 
@@ -138,11 +148,57 @@ footer {
     background-color: #fdecc8;
     margin-top: 40px;
     font-family: 'Arial', sans-serif;
-    color: #a0455a;
+    color: #d14e6e;
 }
 
 footer p {
     margin-top: 15px;
-    color: #a0455a;
+    color: #d14e6e;
     font-size: 0.9em;
+}
+
+a{
+
+color: #d14e6e; 
+}
+
+.container-logo  {
+
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+
+}
+
+
+.logo {
+    margin-bottom:30px;
+    width: 300px;  
+    height: auto;  
+    margin-right: 20px;  
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9dbd;
+    color: rgb(0, 0, 0); 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease;
+    color: #d14e6e;
+}
+
+a.botao:hover {
+    background-color: #ffd9d9;
+
+}
+
+.botao-container {
+    text-align: center; 
+    margin-top: 20px;
 }
