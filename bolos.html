@@ -1,73 +1,108 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolos</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cardápio Bolos</title>
+    <link rel="stylesheet" href="bolostyle.css">
+    <link rel="icon" href="/update pagina bolo/Dolfiore Confeitaria.png" type="image/png">
 </head>
 <body>
+
     <header>
-        <h1>Dolfiore Confeitaria</h1>
+        <div class="container-logo">
+            <img src="Dolfiore Confeitaria.png" alt="Dolfiore Confeitaria" class="logo">
+        </div>
         <nav>
-            <ul>
-                <li><a href="bolos.html">Brigadeiros</a></li>
-                <li><a href="doces.html">Doces</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+                <ul>
+                    <li>
+                        <div class="botao-container">
+                            
+                            <a href="index.html#sobre" class="botao">Sobre</a>
+                            
+                        </div>
+                    <li>
+                        <div class="botao-container">
+                            
+                            <a href="brigadeiros.html" class="botao">Produtos</a>
+                            
+                        </div>
+                    <li>
+                        <div class="botao-container">
+                            
+                            <a href="index.html#contato" class="botao">Contato</a>
+                            
+                        </div>
+                </ul>
+            </nav>
     </header>
-    <main>
-        <h1>Cardápio de Bolos</h1>
-        <p>Confira nossos deliciosos bolos e recheios!</p>
+
+    <section class="sabores">
+        <div class="titulos">
+
+            <div class="caixa-div">
+                <h2>Recheio Simples</h2>
+            </div>
+            
+            <div class="caixa-div">
+                <h2>Recheio Especial</h2>
+            </div>
+        
+        </div>
+        <div class="imagem">
+            <img src="/update pagina bolo/bolo1.jpg" alt="Bolo especial" />
+            <img src="/update pagina bolo/bolo2.jpg" alt="bolo simples" />
+        </div>
+
         <div class="cards-container">
             <div class="card">
-                <h2>Recheios Simples</h2>
-                <p class="preco">Preço: R$80,00 por kg</p>
-                <ul>
-                    <li>Ninho</li>
-                    <li>Chocolate</li>
-                    <li>Chocolate Branco</li>
-                    <li>Beijinho</li>
-                </ul>
+                <h3>Recheio Simples</h3>
+                <p>Ninho</p>
+                <p>Chocolate</p>
+                <p>Chocolate Branco</p>
+                <p>Beijinho</p>
+                <h4>Preço:R$80,00 por Kg</h4>
             </div>
+
             <div class="card">
-                <h2>Recheios Especiais</h2>
-                <p class="preco">Preço: R$90,00 por kg</p>
-                <ul>
-                    <li>Doce de Leite</li>
-                    <li>Maracujá</li>
-                    <li>Abacaxi</li>
-                    <li>Limão</li>
-                    <li>Geleia de morango</li>
-                    <li>Nutella</li>
-                </ul>
+                <h3>Recheio Especial</h3>
+                <p>Doce de leite</p>
+                <p>Maracujá</p>
+                <p>Abacaxi</p>
+                <p>Limão</p>
+                <p>Geleia de morango</p>
+                <p>Nutella</p>
+                <h4>Preço:R$90,00 por Kg</h4>
             </div>
+
             <div class="card">
-                <h2>Adicionais</h2>
-                <ul>
-                    <li>Gliter: R$12,00 p/kg</li>
-                    <li>Crocante: R$10,00 p/kg</li>
-                    <li>Brigadeiros: R$2,00 UN</li>
-                    <li>Bolo Fake: R$40,00</li>
-                    <li>Topper e Flores: Consultar Valores</li>
-                    <li>Geleia e Frutas vermelhas: R$25,00 p/kg</li>
-                </ul>
+                <h3>Adicionais</h3>
+                <p>Gliter R$12,00 p/KG</p>
+                <p>Crocante R$10,00 p/KG</p>
+                <p>Brigadeiro R$2,00 p/KG</p>
+                <p>Bolo Fake R$40,00 p/UND</p>
+                <p>Topper e Flores. Consultar Valores</p>
+                <p>Geleia e Frutas Vermelhas R$25,00 p/KG</p>
+
+
             </div>
+            
+               
         </div>
-    </main>
+    </section>
+
+<div class="botao-container">
+
+    <a href="https://api.whatsapp.com/message/R2NUBYZOVZE7F1?autoload=1&app_absent=0" class="botao" target="_blank" rel="noopener noreferrer"><h2>Faça o seu pedido agora!</h2></a>
+
+
+</div>
 
     <footer>
-        <h2>Contato</h2>
-        <p>&copy; 2025 Dolfiore Confeitaria. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Cardápio Bolos</p>
+           <p>Siga-nos no Instagram <a href="https://www.instagram.com/dolfioreconfeitaria/" target="_blank" rel="noopener noreferrer">@dolfioreconfeitariaa </a></p>
+            <p>WhatsApp: (83) 99157-7463</p>
     </footer>
 
-    <script>
-        function showTab(tabId) {
-            var tabs = document.querySelectorAll('.tab');
-            tabs.forEach(tab => tab.classList.remove('active'));
-            document.getElementById(tabId).classList.add('active');
-        }
-    </script>
 </body>
 </html>
