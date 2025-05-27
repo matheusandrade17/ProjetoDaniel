@@ -8,3 +8,8 @@ Conterá o valor dos produtos, Descrição dos produtos, Imagens dos produtos, F
  - Júlio Thomas
  - Matheus Gabriel
  - Rafael Barbosa
+
+index.html <- página principal, nela vai conter aluma informações sobre a confeitaria e rederecionamiento papra pagina de bolo, brigadeiro e um formulário de feedback
+bolos.html <- página de venda de bolos, vai ter preços, valores,sabores
+brigadeiros. hmtl <- página dos brigadeiros, tem os preços, quantidade e sabores
+formulároioFeedback.html <- página dos formulários, se o cliente quiser responder algumas perguntas como por exemplo dos produtos ou do site.
